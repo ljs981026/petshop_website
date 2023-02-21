@@ -1,0 +1,270 @@
+.content {
+  margin: 0;
+  padding: 0;
+}
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header>.topbox {
+  width: 1100px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.header>.topbox>.top_menu {
+  margin: 0 auto;
+}
+
+.header>.topbox>.top_menu>a {
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.nav {
+  margin-top: 30px;
+}
+
+.nav>.middle_box {
+  position: relative;
+}
+
+.nav>.middle_box>.logo>a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-decoration: none;
+}
+
+.nav>.middle_box>.logo>a>img {
+  width: 200px;
+}
+
+.nav>.middle_box>img {
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+}
+
+.menu {
+  width: 1100px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+.menu>.menustyle {
+  text-align: center;
+  display: flex;
+  list-style: none;
+  
+}
+
+.menu>.menustyle>.category {
+  margin: 0 auto;
+  flex-shrink: 0;
+  flex-basis: 1;
+  flex-grow: 1;
+  margin-right: 16px;
+  height: 30px;
+  
+}
+
+.menu>.menustyle>.category>a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.menu>.menustyle>.category:nth-child(2n) {
+  background-color: #FFC0CB;
+  width: 100px;
+}
+
+.menu>.menustyle>.category:nth-child(2n+1) {
+  background-color: beige;
+  width: 100px;
+}
+
+.visual {
+  display: flex;
+  margin-top: 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+  position: relative;
+  height: 300px;
+}
+
+.visual>.banner {
+  width: 400px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.visual>.event {
+  position: relative;
+}
+
+.visual>.event>.box1 {
+  position: absolute;
+  border: 3px solid black;
+  border-radius: 10px;
+  top: 30px;
+  left: 550px;
+}
+
+.visual>.event>.box2 {
+  position: absolute;
+  border: 3px solid black;
+  border-radius: 10px;
+  top: 30px;
+  left: 800px;
+}
+
+.visual>.event>.box1>a>img {
+  width: 200px;
+}
+
+.visual>.event>.box2>a>img {
+  width: 200px;
+}
+
+.visual>.event>.box2>a {
+  text-decoration: none;
+}
+
+.visual>.event>.box1>a {
+  text-decoration: none;
+}
+
+.visual>.event>.box1>a>h1 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.visual>.event>.box2>a>h1 {
+  text-align: center;
+  font-size: 15px;
+}
+
+
+ul { list-style-type: none; }
+li {list-style-type: none;}
+.font-align{ left: 40px; top: 190px; text-align: center; margin-top: 10px; font-style:normal; color: lightcoral;}
+.search{line-height: 20px; width: 250px; margin-top: 200px;}
+#topbottom{margin-top: 250px; margin-left: 700px; font-size: 3px;}
+#center{overflow: hidden; margin: 0 auto; width: 1300px;}
+#menustyle{
+    float: center; margin: 0 auto; width: auto; text-align: center;
+}
+#centerleft{float:left; width : 400px; height: 350px;margin-left: 150px; }
+#centerright{float: right; width: 600px; height: 350px; position: relative;}
+#a{list-style: none ; 
+    padding: 15px; width : 80px; height : 10px; margin-right: 10px; text-decoration:none; font-size: 3px; font: bold; 
+    display: inline-block;
+    }
+
+a:link {text-decoration:none; color: plum;}
+
+a:hover {text-decoration:none; color: plum;}  
+#a:nth-child(2n){background-color: whitesmoke; text-align: center; font-weight: bold;}
+#a:nth-child(2n+1){background-color: pink; text-align: center; font-weight: bold;}
+  
+#a > a:first-child{color: black;}
+#slide{overflow: inherit; margin: 0 auto; width: 1000px; align-content: left;}
+
+#c{overflow: hidden; margin: 0 auto; width: 1100px; margin-bottom: 10px;}
+.more{float: right; border: solid 2px white;  border-radius: 20px;}   
+#d{overflow: hidden; margin: 0 auto; width: 1100px; }
+.p{margin-left: 35px; }
+.new{text-align: center; font-size: 30px; }
+.boxx{
+    position:relative; border-color: violet; width: 200px; height: 200px;  margin: 55px ; float: left; margin-left: 60px;
+    text-align: center; font-size: 15px; margin-bottom: 80px;
+}    
+.brown{width: 60px; height: 15px; color: white; background-color: brown; border-style: none; text-align: center;}
+.pink{width: 32px;  color: white; background-color: hotpink; border-style: none; text-align: center; margin-left: 8px;}
+.red{width: 32px; color: white; background-color: lightpink; border-color: lightpink; border-style: none; text-align: center;}
+div.container{
+        overflow: hidden;
+    }
+
+div.item{
+    overflow: hidden; 
+    font-style: italic;
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 0px 3px;
+    margin-left: 0px;
+    padding:  10px;
+
+}
+.container{
+    overflow: hidden; margin: 0 auto; width: 1100px; margin-top: 20px;
+}
+div.item2{
+    overflow: hidden;
+    font-style: italic;
+    float: left;
+    width: 270px;
+    height: 150px;
+    margin: 0px 3px;
+    margin-left: 0px;
+    padding:  10px;
+}
+
+.hr1{ overflow: hidden; margin: 0 auto; width: 1000px; margin-top: 15px; margin-bottom: 10px;}
+.cust{ font-size: 12px; font-weight: bold; font-style: normal; float: left; margin-left: 10px; margin-top: 10px;}
+.phone{margin-top: 8px; float: left;}
+.num{float: left; font-size: 25px; margin-top: 5px; margin-left: 9px; font-style: normal; font-weight: 700; color: pink;}
+.time{overflow: hidden; font-size: 11px; float: left; margin-left: 25px; margin-top: 15px; font-weight: 500; font-style: normal;} 
+.day{overflow: hidden; font-size: 11px; float: left; margin-left: 20px; margin-top: 8px; font-weight: 500; font-style: normal; color: gray}
+.kaka{overflow: hidden; float: left; margin-top: 15px;font-weight: bold; font-style: normal;}
+.hamdol{overflow: hidden; float: left; margin-top: 10px; margin-left: 30px; font-style: normal; font-weight: bold; color: pink;}
+.tp{overflow: hidden; float: left; margin-top: 10px; margin-left: 30px; font-style: normal; font-weight: bold; color: pink;}
+.mes{overflow: hidden; float: left;margin-top: 15px;font-weight: bold; font-style: normal;}
+.bank{ font-size: 12px; font-weight: bold; font-style: normal; float: left; margin-left: 10px; margin-top: 10px;
+}
+.ac{margin-top: 8px; float: left;}
+.aco{overflow: hidden; float: left;margin-top: 15px;font-weight: bold; font-style: normal; font-size: 13px;}
+.user{ font-size: 10px; font-weight: bold; font-style: normal; float: left; margin-left: 5px; margin-top: 15px;
+}
+.deliver{margin-top: 8px; float: left;}
+.ser{overflow: hidden; float: left;margin-top: 10px; margin-left: 5px;font-weight: bold; font-style: normal; font-size: 13px; color: black;}
+.de{ font-size: 10px; font-weight: bold; font-style: normal; float: left; margin-left: -15px; margin-top: 18px; color: black;
+}
+.ex{overflow: hidden; float: left; margin-top: 15px; margin-left: 10px; font-style: normal; font-weight: bold; color: orange;; font-size: 12px;}
+.ad{ font-size: 12px; font-weight: 800 ; font-style: normal; float: left; margin-left: 5px; margin-top: 15px;
+color: black;}
+.notice{margin-top: 50px; float: left; margin-left: 11%;}
+.n{overflow: hidden; float: left; margin-top: 90px; margin-left: -40px; font-style: normal; font-weight: bold;  font-size: 12px; color: black;}
+.qna{margin-top: 50px; float: left; margin-left: 15%;}
+.q{overflow: hidden; float: left; margin-top: 90px; margin-left: -40px; font-style: normal; font-weight: bold; font-size: 12px;color: black;}
+.mi{margin-top: 50px; float: left; margin-left: 15%;}
+.r{overflow: hidden; float: left; margin-top: 90px; margin-left: -40px; font-style: normal; font-weight: bold; font-size: 12px;color: black;}
+.top{overflow: hidden; margin: 0 auto; float: right; margin-right: 300px;}
+
+.light{color: lightpink;}
+.g{float: left; margin-left: 60px; margin-top: 10px;}
+.g1{float: left; margin-left: 72px; margin-top: 5px;}
+.g2{float: left; margin-left: 50px; margin-top: 10px;}
+.g3{float: left; margin-left: 60px; margin-top: 5px;}
+legend{font-size: 20px; font-weight: 900;}
+.f2{border: solid 2px; border-radius: 20px;}
+.price{color: salmon;}
+.l{font-weight: 600;}
+.grayc{color: lightslategray;}
+.pur{color: plum;}
+
+.bottombox {
+  text-align: center;
+  margin: 0 auto;
+}
